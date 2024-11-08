@@ -1,0 +1,28 @@
+# Ignore Unity-generated folders and files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Pp]ackageCache/
+
+# Ignore Visual Studio and other IDE files
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vscode/
+
+# Ignore other temporary or hidden files
+.DS_Store
+Thumbs.db
