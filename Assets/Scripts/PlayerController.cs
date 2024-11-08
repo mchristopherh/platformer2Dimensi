@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
         theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * activeSpeed, theRB.velocity.y);
 
         WallSlide();
+        
         WallJump();
 
         if(Input.GetButtonDown("Jump"))
